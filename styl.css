@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-position-x:center ;
+    background-size: cover;
+    height: 100vh;
+    background-color: #141437f1;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    height: 76%;
+    
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  
+  .Input{
+    width: 50%;
+    padding: 20px;
+    margin-bottom: 40px;
+    border: 1px solid #64d8ea;
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 40px;
+    font-size: 20px;
+    
+    
+  }
+  
+  
+  #logininput {
+  
+    padding: 20px;
+    background-color: #1308e5;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+  
+  }
+  
+  
+  
+  
+  

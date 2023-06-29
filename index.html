@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="log in.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+  <img src="download.png" alt="" style="width: 20%; margin-left:40% ; margin-bottom: 20px;" >
+  
+  <form id= "login-form">
+    <h1> <img src="log in.png" alt="" style="width: 20%;"> </h1>
+
+   <input type="text" id="username" name="username" required placeholder="Username" class="Input"><br>
+
+    
+    <input type="password" id="password" name="password" required placeholder="password" class="Input"><br>
+
+    <input   type="submit" value="Login" id="logininput">
+  </form>
+
+  <script>
+   
+   document.getElementById("login-form").addEventListener("submit", 
+   function(event) {
+    event.preventDefault(); // Prevent form submission
+  
+    // Get the username and password values
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+  
+    // Check if the username and password are correct
+    if (username === "Richmond Gyening" && password === "Richmond007") {
+      alert("Log in Successful!"); // Replace with your desired action
+      window.location.href = "home.html"; // Redirect to the main page
+    } else {
+      alert("Invalid username or password.");
+    }
+  })
+  </script>
+</body>
+    
+</html>

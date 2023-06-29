@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(abstract.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .fieldset {
+    max-width: 400px;
+    width: 90%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    text-align: center;
+    margin: auto; 
+  }
+  
+  .h1 {
+    color: rgb(46, 46, 222);
+  }
+  
+  .lable {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .input {
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(5, 5, 50);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin-top: 5px;
+  }
+  
+  #installs,
+  #Formbtn {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  #AttendanceTable {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #AttendanceTable th,
+  #AttendanceTable td {
+    border: 1px solid rgb(59, 55, 184);
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    background-color: black;
+  }
+  
+  /* Responsive styles */
+  @media only screen and (max-width:600px) {
+    .fieldset {
+        width: 100%;
+        padding: 10px;
+    }
+  
+    .lable {
+        font-size: 16px;
+    }
+  
+    .input {
+        font-size: 14px;
+        padding: 8px;
+    }
+  
+    #AttendanceTable th,
+    #AttendanceTable td {
+        font-size: 16px;
+        padding: 8px;
+    }
+  
+    #installs,
+    #Formbtn {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+  }
